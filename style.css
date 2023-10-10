@@ -1,0 +1,218 @@
+body{
+	background: gray; 
+	width: 1100px; 
+	border: 1px solid red; 
+	margin: 0px auto;
+}
+.header{
+	height: 150px;
+	background: lightblue;
+	padding: 10px;
+}
+	.lr{
+		margin: -161px -7px 0px 900px;
+}
+
+#menu{
+	margin: 0pxauto;
+	height: 20px;
+	background: #00A0D9;
+	overflow: hidde;
+}
+#menu ul{
+list-style-type: none;
+
+}
+#menu li{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+#menu li a{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px;
+}
+#menu li a:hover{
+	background: blue;
+	color: red;
+}
+.sidebar{
+	width: 250px;
+	height: 600px;
+	background: greenyellow;
+	float: left;
+	padding: 10px;
+	margin: 3px 0px 10px 0px;
+}
+.cont{
+	width: 805px;
+	height: 600px;
+	background: white;
+	float: right;
+	padding: 10px;
+	margin: 3px 0px 10px 0px;
+}
+.foter{
+	height: 50px;
+	background: black;
+	color: white;
+	clear: both;
+}
+.slide-container {
+            width: 100%;
+            height:85vh;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            background-color: rgb(110, 110, 250);
+        }
+
+        .image-slider{
+            width: 100%;
+            height: 600px;
+            position: absolute;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 1s;
+        }
+        
+        .slides-div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 30px;
+        }
+
+        .img{
+            position: relative;
+            width: 140px;
+            height: 200px;
+            transition: 0.5s;
+        }
+
+        .button {
+            position: absolute;
+            width: 240px;
+            height: 370px;
+            transition: 0.5s;
+        
+        }
+
+        #slider-span1:target ~ .image-slider #img1,
+        #slider-span1:target ~.image-slider #button-1{
+            width:200px;
+            height: 200px;
+            background-color: transparent;
+        }
+        #slider-span2:target ~ .image-slider #img2,
+        #slider-span2:target ~.image-slider #button-2{
+            width:200px;
+            height: 200px;
+            background-color: transparent;
+        }
+        #slider-span3:target ~ .image-slider #img3,
+        #slider-span3:target ~.image-slider #button-3{
+            width:200px;
+            height: 200px;
+            background-color: transparent;
+        }
+
+        #slider-span1:target ~.image-slider{
+            left:10%;
+        }
+        #slider-span2:target ~.image-slider{
+            left:0%;
+        }
+        #slider-span3:target ~.image-slider{
+            left:-10%;
+        }
+.edu{
+	color: darkred;
+	font-size: 25px;
+	text-align: center;
+	box-sizing: content-box;
+	width: 450px;
+}
+.box{
+	width: 380px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-30%,-12%);
+	background-image:url(img/log.png) ;
+	text-align: center;
+	border-radius: 24px;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.box h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.box input[type="text"],.box input[type="password"]{
+	border: 0;
+	background:none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 280px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+width: 280px;
+border-color: #2ecc71;	
+}
+.box input[type="submit"]{
+	border: 0;
+	background:none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;	
+}
+.box input[type="submit"]:hover{
+	background: #2ecc71;
+}
+#c{
+	width: 500px;
+	height: 350px;
+	padding: 20px;
+	border-radius: 15px;
+	border: 1px solid rgba(0, 0, 0, 1.174);
+	box-shadow: 0 0 50px 2px #0FFc;
+	display: flex;
+	flex-direction: c
+	align-items: center;olumn;
+	justify-content: center;
+	background: #fff;
+	background-attachment: fixed;
+	background-size: 430px;
+	color: white;
+	background-image: url(img/rain.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 21px 80px 50px 100px;	
+}
+i{
+	margin: 5px;
+}
